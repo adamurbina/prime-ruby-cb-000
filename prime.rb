@@ -1,6 +1,6 @@
 # Add  code here!
 
-def prime(number)
+def prime?(number)
 
     return false if number < 2
 
