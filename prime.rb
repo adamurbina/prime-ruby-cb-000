@@ -12,7 +12,7 @@ def prime?(number)
         if number % div == 0
             return false
         else
-            range = (range/div).round
+            range = (number/div).round
             div += 1
         end
     end
