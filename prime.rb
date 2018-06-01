@@ -10,6 +10,5 @@ def prime(number)
             return true
         end
     }
-
     false
 end
