@@ -4,14 +4,14 @@ def prime(number)
 
     return false if number < 2
 
-    half = (number / 2).round
+    range = number
     div = 2
-    while div < half
+    while div < range
         if number % div == 0
             return true
         else
-            half = (half/div).round
-
+            range = (range/div).round
+            div += 1
         end
     end
     false
