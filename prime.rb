@@ -8,11 +8,11 @@ def prime?(number)
     div = 2
     while div < range
         if number % div == 0
-            return true
+            return false
         else
             range = (range/div).round
             div += 1
         end
     end
-    false
+    return false
 end
