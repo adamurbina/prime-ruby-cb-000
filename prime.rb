@@ -19,4 +19,4 @@ def prime?(number)
     return true
 end
 
-prime?(1763)
+puts(prime?(1763))
