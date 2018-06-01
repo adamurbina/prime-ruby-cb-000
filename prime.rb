@@ -14,5 +14,5 @@ def prime?(number)
             div += 1
         end
     end
-    return false
+    return true
 end
