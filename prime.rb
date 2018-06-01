@@ -7,6 +7,7 @@ def prime?(number)
     range = number
     div = 2
     while div < range
+        puts ("hit")
         if number % div == 0
             return false
         else
@@ -16,3 +17,5 @@ def prime?(number)
     end
     return true
 end
+
+prime?(1763)
