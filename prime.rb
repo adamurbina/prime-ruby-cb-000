@@ -7,7 +7,8 @@ def prime?(number)
     range = number
     div = 2
     while div < range
-        puts ("hit")
+        puts ("div: #{div} ")
+        puts("range #{range}")
         if number % div == 0
             return false
         else
